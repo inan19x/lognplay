@@ -11,16 +11,16 @@ Scripto Kiddo - 2011<br/>
 <br/>
 Usage example:<br/>
 $ lognplay start &lt;session-name&gt;<br/>
-- Will start lognplay script as usual<br/>
+Will start lognplay script as usual<br/>
   <br/>
 $ lognplay stealth &lt;session-name&gt;<br/>
-- Will start lognplay script in hide mode<br/>
+Will start lognplay script in hide mode<br/>
   <br/>
 $ lognplay read /path/to/logfile/file-&lt;session-name&gt;.log<br/>
-- Will play the log of a session that previously logged<br/>
+Will play the log of a session that previously logged<br/>
   <br/>
 $ lognplay export /path/to/logfile/file-&lt;session-name&gt;.log<br/>
-- Will export the log of a session to a password-protected zip file<br/>
+Will export the log of a session to a password-protected zip file<br/>
   <br/>
 $ lognplay import /path/to/logfile/file-&lt;session-name&gt;.zip<br/>
-- Will import zip file contains a session that previously logged<br/>
+Will import zip file contains a session that previously logged<br/>
