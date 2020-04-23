@@ -10,18 +10,17 @@ Small utilities to log your shell session for further audit
 Scripto Kiddo - 2011<br/>
 <br/>
 Usage example:<br/>
-<br/>
-$ lognplay start <session-name><br/>
+$ lognplay start &lt;session-name&gt;<br/>
 - Will start lognplay script as usual<br/>
   <br/>
-$ lognplay stealth <session-name><br/>
+$ lognplay stealth &lt;session-name&gt;<br/>
 - Will start lognplay script in hide mode<br/>
   <br/>
-$ lognplay read /path/to/logfile/file-<session-name>.log<br/>
+$ lognplay read /path/to/logfile/file-&lt;session-name&gt;.log<br/>
 - Will play the log of a session that previously logged<br/>
   <br/>
-$ lognplay export /path/to/logfile/file-<session-name>.log<br/>
+$ lognplay export /path/to/logfile/file-&lt;session-name&gt;.log<br/>
 - Will export the log of a session to a password-protected zip file<br/>
   <br/>
-$ lognplay import /path/to/logfile/file-<session-name>.zip<br/>
+$ lognplay import /path/to/logfile/file-&lt;session-name&gt;.zip<br/>
 - Will import zip file contains a session that previously logged<br/>
